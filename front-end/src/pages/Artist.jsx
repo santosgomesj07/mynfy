@@ -9,6 +9,11 @@ import { songsArray } from "../assets/database/songs";
 const Artist = () => {
   const { id } = useParams();
 
+  //Busca pelo artista com base em um id comum (arquivo do database stático)
+  // const { name, banner } = artistArray.find(
+  //   (artist) => artist.id === Number(id)
+  // );
+
   const { name, banner } = artistArray.filter(
     (currentArtistObj, index) => currentArtistObj._id === id
   )[0];

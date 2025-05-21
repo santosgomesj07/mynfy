@@ -9,7 +9,7 @@ const Header = () => {
         <img src={logoSpotify} alt="" />
       </Link>
       <Link className="header__link" to="/">
-        <h1>Spotify</h1>
+        <h1>Mynfy</h1>
       </Link>
     </div>
   );

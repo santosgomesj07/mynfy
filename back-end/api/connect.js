@@ -5,7 +5,7 @@ const URI =
 
 const client = new MongoClient(URI);
 
-export const db = client.db("spotify");
+export const db = client.db("mynfy");
 // const songCollection = await db.collection("songs").find({}).toArray();
 
 // console.log(songCollection);
