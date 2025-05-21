@@ -3,7 +3,7 @@ import axios from "axios";
 //Rota para teste local
 // const URL = "/api";
 
-const URL = "https://spotify-gp57.onrender.com/api";
+const URL = "https://mynfy.onrender.com/api";
 
 const responseArtists = await axios.get(`${URL}/artists`);
 const responseSongs = await axios.get(`${URL}/songs`);
